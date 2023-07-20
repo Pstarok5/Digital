@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Bell MT;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+    font-size: 42px;
+    background: #333;
+    color: #fff;
+}
+
+
+
+.year-cont {
+    display: flex;
+    flex-flow: column;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+
+
+.mnth-cont {
+    display: flex;
+    flex-flow: column;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+
+
+.day-cont {
+    display: flex;
+    flex-flow: column;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+
+
+.hour-cont {
+    display: flex;
+    flex-flow: column;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+
+
+.min-cont {
+    display: flex;
+    flex-flow: column;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+
+
+.sec-cont {
+    display: flex;
+    flex-flow: column;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+
+.bar {
+    display: flex;
+    cursor: pointer;
+}
+
+.bar:hover {
+    color: lime;
+}
+
+
+
+
+@media screen and (max-width: 360px) {
+
+    .bar {
+        flex-direction: column;
+        margin-top: -20rem;
+        margin-left: -5rem;
+        flex-wrap: wrap;
+        cursor: pointer;
+    }
+
+    body {
+        background-color: black;
+        color: orange;
+    }
+    
+}
